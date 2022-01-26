@@ -84,13 +84,16 @@
                 <!--basic-price-info-->
             </div>
 </section>
+<section style="margin: 0 auto; position: relative; top: 60px;">
+    <input type="text" placeholder="Search products" style="font-size: 20px; text-align: center; width: 500px; height: 50px; border-radius: 7px;">
+</section>
 <!-----------Website Builder---------->
 
 <section class="website">
     <h1>Website Builder</h1>
     <p>Be your own designer with our website builder. We've made it so easy to get your business online.</p>
     <div class="basic-price-co">
-                <div class="bas-price-info">
+                <div class="bas-price-info" style="background-color: #fcfcfc;height: 350px;">
                     <h4>PERSONAL</h4>
                     <div class="pric">
                         <h5>#15,000.00/year</h5>
@@ -101,19 +104,18 @@
                     <button type="button" class="price-btn">Get Started</button>
                 </div>
                 <!--basic-price-info-->
-    </div>
+    
     <!--basic-price-col-->
-            <div class="basic-price-co">
-                <div class="bas-price-info">
+                <div class="bas-price-info" style="background-color: #fcfcfc; height: 350px;">
                     <h4>BUSINESS</h4>
                     <div class="pric">
-                        <h5>#25000.00/year</h5>
+                        <h5>#25,000.00/year</h5>
                         <p>Find out what it's like to run your business</p>
                     </div>
                     <!--price-list-->
                     <button type="button" class="price-btn">Get Started</button>
                 </div>
-    
+    </div>
 </section>
 <!-----------We're Different---------->
 
@@ -121,30 +123,34 @@
     <h1>We're Different</h1>
     <p>Here is Why</p>
     <div class="different-box">
-        <div class="difference">
-            <h2>Experienced Staff</h2>
-            <p>We take great pride in offering the best customer service available in the industry, that's what our customers deserve. We're available to our customers 24/7.</p>
+        <div class="top-box">
+            <div class="difference">
+                <h2>Experienced Staff</h2>
+                <p>We take great pride in offering the best customer service available in the industry, that's what our customers deserve. We're available to our customers 24/7.</p>
+            </div>
+             <div class="difference">
+                <h2>Reliable Hardware</h2>
+                <p>We have reliable hardware fleet of servers that host all of our customers. And we ensure hard servers are upgraded on regular basis.</p>
+            </div>
+             <div class="difference">
+                <h2>Unmetered Bandwidth</h2>
+                <p>We never charge extra fees for high bandwidth use. No need bothering yourself of high traffic on your website. We offer these package at a very affordable fee.</p>
+            </div>
         </div>
-         <div class="difference">
-            <h2>Reliable Hardware</h2>
-            <p>We have reliable hardware fleet of servers that host all of our customers. And we ensure hard servers are upgraded on regular basis.</p>
-        </div>
-         <div class="difference">
-            <h2>Unmetered Bandwidth</h2>
-            <p>We never charge extra fees for high bandwidth use. No need bothering yourself of high traffic on your website. We offer these package at a very affordable fee.</p>
-        </div>
-         <div class="difference">
-            <h2>99.9% Server Uptime</h2>
-            <p>We have proactive monitoring down to seconds with reactive solutions in place to ensure the stability of the services we provide. All servers are monitored 24/7/365.</p>
-        </div>
-         <div class="difference">
-            <h2>High Level Security</h2>
-            <p>It is our continuous endeavor to build secure web services that our clients and customers enjoy. This is why all our communication and data that powers our web hosting servers are encrypted with FTP over SSL (FTPS).</p>
-        </div>
-         <div class="difference">
-            <h2>Scalability to Fit Your Needs</h2>
-            <p>Start with what you need and move to more powerful options as your website grows. Our custom technology makes it easy to upgrade your account to Cloud or VPS in just a click./p>
-        </div>
+         <div class="top-box">
+            <div class="difference">
+                <h2>99.9% Server Uptime</h2>
+                <p>We have proactive monitoring down to seconds with reactive solutions in place to ensure the stability of the services we provide. All servers are monitored 24/7/365.</p>
+            </div>
+             <div class="difference">
+                <h2>High Level Security</h2>
+                <p>It is our continuous endeavor to build secure web services that our clients and customers enjoy. This is why all our communication and data that powers our web hosting servers are encrypted with FTP over SSL (FTPS).</p>
+            </div>
+             <div class="difference">
+                <h2>Scalability to Fit Your Needs</h2>
+                <p>Start with what you need and move to more powerful options as your website grows. Our custom technology makes it easy to upgrade your account to Cloud or VPS in just a click./p>
+            </div>
+         </div>
         
     </div>
 </section>
@@ -208,10 +214,10 @@
 <script>
     
     var navLinks = document.getelementById("navLinks");
-    fuction showMenu(){
+    function showMenu(){
         navLinks.style.right = "0"; 
     }
-    fuction hideMenu(){
+    function hideMenu(){
         navLinks.style.right = "-200"; 
     }
 
