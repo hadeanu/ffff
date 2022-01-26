@@ -193,7 +193,7 @@ button.price-btn:hover {
   width: 80%;
   margin: auto;
   text-align: center;
-  padding-top: 35%;
+  padding-top: 6%;
 }
 h1{
   font-size: 36px;
@@ -207,11 +207,10 @@ p{
   padding: 10px;
 }
 .basic-price-co{
-  float: left;
-  width: 20%;
-  background-color: #fcfcfc;
-  margin-left: 5%;
-  padding: 50px;
+display: flex;
+justify-content: center;
+gap: 30px;
+  margin:0 auto; 
   text-align: center;
   border-radius: 20px;
   margin-top: 5px;
@@ -240,7 +239,7 @@ p{
  width: 80%;
   margin: auto;
   text-align: center;
-  padding-top: 35%;
+  padding-top: 5%;
 }
 h1{
   font-size: 40px;
@@ -255,10 +254,15 @@ p{
 }
 .different-box{
   margin-top: 5%;
-  display: flex;
+  display: grid;
   justify-content: space-between;
   padding: 50px;
 }
+.top-box{
+  display: flex;
+  justify-content: space-around;
+}
+
 .difference{
   flex-basis: 31%;
   background: #fff3f3;
